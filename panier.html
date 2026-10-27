@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon panier - MyStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Mon Panier</title>
+</head>
+<body>
+    
+ <nav class="navbar">
+        <a class="brand" href="mystore.html">🛍️ MyStore</a>
+        <div class="nav-links">
+            <a href="mystore.html">Boutique</a>
+            <a href="panier.html" class="cart-link active">🛒 Panier <span class="badge" id="cartCount">0</span></a>
+            <button class="logout-btn" id="logoutBtn">Déconnexion</button>
+        </div>
+
+
+
+    <header>
+        <h1> My Store</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="panier.html">Mon Panier</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+            <a href="panier.html" class="cart-link active">🛒 Panier <span class="badge" id="cartCount">0</span></a>
+        <h2>Mon Panier </h2>
+        <p class="subtitle">Retrouvez vos préférés</p>
+
+        <div class="cart">
+
+            <div class="book">
+                <img src="bag.jpg" alt="">
+
+                <div class="book-info">
+                    <h3>bag</h3>
+                    <p class="price">250 DT</p>
+                    <label for="qte1">Quantité :</label>
+                    <input type="number" id="qte1" min="1" value="1">
+                </div>
+
+                <button type="button" class="remove">Supprimer</button>
+            </div>
+
+            <div class="book">
+                
+
+                <div class="book-info">
+                    <img src="casque.jpg" alt="">
+                    <h3> casque Audio</h3>
+                    <p class="price">90 DT</p>
+                    <label for="qte2">Quantité :</label>
+                    <input type="number" id="qte2" min="1" value="1">
+                </div>
+
+                <button type="button" class="remove">Supprimer</button>
+            </div>
+        </div>
+
+        <div class="total">
+            <h3>Total : 340 DT</h3>
+            <button type="button">Confirmer la commande</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Ma Librairie - Tous droits réservés</p>
+    </footer>
+

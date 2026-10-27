@@ -1,0 +1,112 @@
+ html{
+    height: 100%;
+ }
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background: url("images\ \(2\).jfif") no-repeat center center;
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.wrapper {
+    width: 420px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.login-title {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    background: transparent;
+    color: black;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.remember-forgot-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.remember-forgot-box a,
+.register a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot-box a:hover,
+.register a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #ddd;
+}
+
+.register {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
